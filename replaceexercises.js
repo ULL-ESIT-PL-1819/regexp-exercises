@@ -3,7 +3,7 @@ var text = "456.5/237e2 1/9.1 hola 2/5";
 // Change this call.
 var result = text.replace(/.../g, '...');
 console.log(result);
-var expected = `237e2/456.5 9.1/1 hola 2/5`;
+var expected = `237e2/456.5 9.1/1 hola 5/2`;
 if (expected === result) console.log("OK")
 else console.log("ERROR!");
 

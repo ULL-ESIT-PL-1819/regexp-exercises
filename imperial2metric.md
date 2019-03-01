@@ -4,9 +4,18 @@ Escriba una función `imp2met` que cambie todas las medidas imperiales por medid
 let met = imp2met("John is 6 feet tall and weights 140 pounds") // John is 1.8 m tall and weights 63.5 kilos
 ```
 
+Debe buscar por cadenas como `6 feet` 
+
+Puede que este módulo le sea de ayuda:
+
 * [convert-units](https://www.npmjs.com/package/convert-units)
 
 ```
-convert(1).from('lb').to('kg')
-// 0.4536... (tested to 4 significant figures)
+$ node
+> convert = require('convert-units')
+[Function: convert]
+> convert(1).from('lb').to('kg')
+0.453592
+> convert().from('ft').possibilities()
+[ 'mm', 'cm', 'm', 'km', 'in', 'yd', 'ft-us', 'ft', 'mi' ]
 ```

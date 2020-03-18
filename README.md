@@ -6,6 +6,8 @@ Esta práctica se divide en varios retos que se corresponden con distintos progr
  
 ```
 eloquentregexp.js
+boundaries.js
+diophantine3xplus2yequal14.js
 replaceexercises.js
 regexpexercises.js
 singlequotestodoublequotes.js
@@ -56,14 +58,17 @@ Quedan 6 regexps sin escribir
 
 ## Resto de Ejercicios
 
-El resto de ejercicios sigue un esquema similar al anterior:
+El resto de ejercicios sigue un esquema similar al anterior. 
+Para cada uno, lea las instrucciones
+en los comentarios:
 
-
+* boundaries.js 
+* Resuelva diophantine3xplus2yequal14.js
 * Resuelva los ejercicios en [singlequotestodoublequotes.js](singlequotestodoublequotes.js)
 * Resuelva los ejercicios en [replaceexercises.js](replaceexercises.js)
 * Resuelva los ejercicios en [regexpexercises.js](regexpexercises.js)
 
-Aunque en cada uno de los problemas se ha proveído  algunos ejemplos de cadenas con las que deberia casar o no casar, es conveniente que aumente el número de casos de prueba.
+Aunque en cada uno de los problemas se ha proveído  algunos ejemplos de cadenas con las que deberia casar o no casar, en general es conveniente que aumente el número de casos de prueba.
 
 ## Recursos
 

@@ -1,21 +1,71 @@
-## Práctica: Evaluar Manejo de Expresiones Regulares
+# Práctica: Manejo de Expresiones Regulares
 
-### Forma de trabajo
+## Introducción
 
-* Use su portátil o su cuenta en c9 para llevar a cabo los objetivos planteados.
-* Esta práctica se divide en objetivos o hitos:  indique al profesor  cuando ha terminado y suba los enlaces a los repos y despliegues.
-* Hay un programa NodeJS por conjunto de ejercicios.  Pruebe sus `regexp`s con una variedad de cadenas (que casan y que no casan) 
-* Rellene las partes que faltan y ejecute `node eloquentregexp.js` para ver los resultados
+Esta práctica se divide en varios retos que se corresponden con distintos programas JavaScript:
+ 
+```
+eloquentregexp.js
+replaceexercises.js
+regexpexercises.js
+singlequotestodoublequotes.js
+```
 
-### Hitos
+Siga las instrucciones en los comentarios del programa, 
+rellene las partes que faltan.
 
-1. Use el repo de GitHub dado por la asignación de esta tarea 
-2. Resuelva los ejercicios en [eloquentregexp.js](eloquentregexp.js)
-3. Resuelva los ejercicios en [singlequotestodoublequotes.js](singlequotestodoublequotes.js)
-4. Resuelva los ejercicios en [replaceexercises.js](replaceexercises.js)
-5. Resuelva los ejercicios en [regexpexercises.js](regexpexercises.js)
+## Reto eloquentregexp.js
 
-### Recursos
+> For each of the following items, write a regular expression to test
+> whether any of the given substrings occur in a string. The regular
+> expression should match only strings containing one of the substrings
+> described. Do not worry about word boundaries unless explicitly
+> mentioned. When your expression works, see whether you can make it
+> any smaller.
+
+En cada problema 
+
+```js
+// car and cat
+verify(/.../,
+       ["my car", "bad cats"],
+       ["camper", "high art"]);
+```
+
+el comentario les indica el objetivo y los `...`indican donde debe escribir la regexp.
+El segundo argumento de `verify` es un array de cadenas con las que se supone debería casar, el tercero un array de cadenas con las que no debe  casar.
+
+Si la rellenas con una solución errónea como:
+
+```js
+// car and cat
+verify(/ca[xf]/,
+       ["my car", "bad cats"],
+       ["camper", "high art"]);
+```
+
+y ejecutas `node eloquentregexp.js` obtendrás una ayuda como esta:
+
+```js
+~/.../p3-t2-regexp/regexp-exercises(master)]$ node eloquentregexp.js 
+Failure to match 'my car'
+Failure to match 'bad cats'
+2 errors
+Quedan 6 regexps sin escribir
+```
+
+## Resto de Ejercicios
+
+El resto de ejercicios sigue un esquema similar al anterior:
+
+
+* Resuelva los ejercicios en [singlequotestodoublequotes.js](singlequotestodoublequotes.js)
+* Resuelva los ejercicios en [replaceexercises.js](replaceexercises.js)
+* Resuelva los ejercicios en [regexpexercises.js](regexpexercises.js)
+
+Aunque en cada uno de los problemas se ha proveído  algunos ejemplos de cadenas con las que deberia casar o no casar, es conveniente que aumente el número de casos de prueba.
+
+## Recursos
 
 * [Apuntes: Expresiones Regulares](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/regexp/)
 * [Eloquent JavaScript: Capítulo Expresiones Regulares](http://eloquentjavascript.net/09_regexp.html)

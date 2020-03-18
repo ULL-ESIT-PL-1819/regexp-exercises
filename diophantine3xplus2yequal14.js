@@ -1,5 +1,7 @@
-// Fill the regexp r to find a Diophantine Solution to the equation:
+// Fill the regexp r iso that the following
+// code finds a solution to the diophantine equation:
 //                   3x+2y=14
+// That is, search for integers values of x and y satisfying the equation
 
 const r = /.../
 

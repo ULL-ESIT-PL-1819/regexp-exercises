@@ -62,8 +62,8 @@ El resto de ejercicios sigue un esquema similar al anterior.
 Para cada uno, lea las instrucciones
 en los comentarios:
 
-* boundaries.js 
-* Resuelva diophantine3xplus2yequal14.js
+* [boundaries.js](boundaries.js)
+* Resuelva [diophantine3xplus2yequal14.js](diophantine3xplus2yequal14.js)
 * Resuelva los ejercicios en [singlequotestodoublequotes.js](singlequotestodoublequotes.js)
 * Resuelva los ejercicios en [replaceexercises.js](replaceexercises.js)
 * Resuelva los ejercicios en [regexpexercises.js](regexpexercises.js)

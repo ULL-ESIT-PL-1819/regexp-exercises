@@ -1,4 +1,4 @@
-// Fill the regexp r iso that the following
+// Fill the regexp r so that the following
 // code finds a solution to the diophantine equation:
 //                   3x+2y=14
 // That is, search for integers values of x and y satisfying the equation

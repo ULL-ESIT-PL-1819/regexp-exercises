@@ -10,3 +10,10 @@ const fourteen = '1'.repeat(14)
 const [_0, threes, _2, twos] = fourteen.match(r)
 
 console.log(threes.length/3, twos.length/2)
+
+// Using regular expressions, write a function: 
+//               diophantine(a, b, c)
+// that returns an array [x, y] containing a 
+// solution to the diophantine equation
+//               a x + b y = c
+// or null if there is no such solution
